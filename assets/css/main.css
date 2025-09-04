@@ -770,17 +770,16 @@ h6 {
 
 .page-title .heading {
   padding: 80px 0;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  /*border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);*/
 }
 
 .page-title .heading h1 {
   font-size: 38px;
   font-weight: 700;
-  text-shadow: 1px 1px 0 #083035;
+  color: #40c5d5;
 }
 
 .page-title nav {
-  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
   padding: 20px 0;
 }
 
@@ -791,6 +790,7 @@ h6 {
   margin: 0;
   font-size: 16px;
   font-weight: 600;
+  justify-content: center;
 }
 
 .page-title nav ol li+li {
@@ -952,6 +952,7 @@ section,
   font-size: 48px;
   font-weight: 700;
   animation: fadeInDown 1s both;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -1909,19 +1910,19 @@ section,
   background: radial-gradient(circle,rgba(64, 213, 176, 1) 0%, rgba(64, 197, 213, 1) 50%, rgba(64, 197, 213, 1) 100%);
 }
 .set-bg-img-other {
-  background-image: url(../img/Hvac-cover.jpg);
-  padding: 141px 0px 190px 0px;
+  /*background-image: url(../img/Hvac-cover.jpg);*/
+  padding: 132px 0px 92px 0px;
   background-size: cover;
   background-position: center;
 }
 .set-bg-img-spices {
-  background-image: url(../img/Spices-cover.jpg);
+  /*background-image: url(../img/Spices-cover.jpg);*/
   padding: 141px 0px 90px 0px;
   background-size: cover;
   background-position: center;
 }
 .set-bg-img-eco {
-  background-image: url(../img/Ecofriendly-cover.jpg);
+  /*background-image: url(../img/Ecofriendly-cover.jpg);*/
   padding: 141px 0px 90px 0px;
   background-size: cover;
   background-position: center;
@@ -1942,6 +1943,18 @@ section,
   }
   .featured-services .service-item {
     padding: 0px 10px;
+  }
+  .set-bg-img-spices {
+    padding: 141px 0px 18px 0px;
+  }
+  .set-bg-img-eco {
+    padding: 141px 0px 18px 0px;
+  }
+  .set-bg-img-other {
+    padding: 141px 0px 18px 0px;
+  }
+  .page-title .heading h1 {
+    font-size: 32px;
   }
 }
 
